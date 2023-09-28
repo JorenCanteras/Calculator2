@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kanit:ital,wght@0,100;0,600;0,700;1,500&family=Merriweather:ital,wght@1,900&family=Poppins:wght@300&family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dela Gothic One', cursive;
+    box-sizing: border-box ;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #c2ebf5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.cal form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .disp{
+    background-color: #F1EFEF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .disp input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 145px;
+    color: orangered;
+}
+.equal:hover{
+    color: #FFBFBF;
+ }
+
+form input.operator{
+    color: #33ffd8 ;
+}
+
+.operator:hover{
+    color: #FFB000;
+ }
+ 
+form input.number{
+    color: white;
+}
+
+.number:hover{
+   color: aqua;
+}
